@@ -326,7 +326,7 @@ export function AddNewCourseDialog() {
                             <Input
                               {...field}
                               id={`instructor-email-${index}`}
-                              placeholder="ต้องเป็นอีเมล @cmu.ac.th"
+                              placeholder="name@cmu.ac.th"
                               aria-label={`อีเมลผู้สอนที่ ${index + 1}`}
                               aria-invalid={fieldState.invalid}
                             />
